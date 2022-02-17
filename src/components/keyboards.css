@@ -1,0 +1,42 @@
+.simple-keyboard {
+	width: 30rem;
+}
+
+.simple-keyboard.myTheme1 {
+	background-color: rgba(0, 0, 0, 0);
+	border-radius: 0;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.simple-keyboard.myTheme1 .hg-button {
+	height: 3.4rem;
+	display: flex;
+	border: none;
+	justify-content: center;
+	align-items: center;
+	background: rgb(111, 112, 113);
+	color: white;
+
+	@apply m-1;
+}
+
+.simple-keyboard.myTheme1 .hg-button:active {
+	background: rgba(111, 112, 113, 0.5);
+	color: white;
+}
+
+.simple-keyboard.hg-layout-default .hg-button.hg-gray {
+	background-color: rgb(45, 44, 46);
+	color: white;
+}
+
+.simple-keyboard.hg-layout-default .hg-button.hg-yellow {
+	background-color: rgb(165, 142, 39) !important;
+	color: white;
+}
+
+.simple-keyboard.hg-layout-default .hg-button.hg-green {
+	background-color: rgb(71, 124, 58) !important;
+	color: white;
+}

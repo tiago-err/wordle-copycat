@@ -1,0 +1,20 @@
+[
+    {
+        "label": "English",
+        "flag": "🇬🇧",
+        "file": "wordle_en.json",
+        "disabled": false
+    },
+    {
+        "label": "French",
+        "flag": "🇫🇷",
+        "file": "wordle_fr.json",
+        "disabled": true
+    },
+    {
+        "label": "Portuguese",
+        "flag": "🇵🇹",
+        "file": "wordle_pt.json",
+        "disabled": true
+    }
+]
